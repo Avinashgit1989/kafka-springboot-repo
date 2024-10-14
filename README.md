@@ -21,10 +21,10 @@ This repository contains the below two project to demonstrate kafka producer and
       - .\bin\windows\kafka-server-start.bat .\config\server.properties
 
   ## Step 3.
-    - start kafka-consumer service.
+   - start kafka-consumer service.
   ## Step 4.
-    - Start kafka-producer service.
+   - Start kafka-producer service.
   ## Step5. 
-    - User below CURl to produce the message.
-        curl -X GET http://localhost:8080/publish?message=I%20am%20fine%20how%20about%20you%20ritesh
+   - User below CURl to produce the message.
+      - curl -X GET http://localhost:8080/publish?message=I%20am%20fine%20how%20about%20you%20ritesh
   
